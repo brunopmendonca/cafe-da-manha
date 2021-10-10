@@ -10,6 +10,7 @@ import com.mv.entities.CafeDaManha;
 import com.mv.services.CafeDaManhaService;
 
 @RestController
+@CrossOrigin(origins = "http://domain2.com", maxAge = 3600)
 @RequestMapping(value = "/cafe-da-manha")
 public class CafeDaManhaController {
 

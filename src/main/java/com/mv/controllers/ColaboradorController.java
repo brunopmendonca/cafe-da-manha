@@ -10,6 +10,7 @@ import com.mv.entities.Colaborador;
 import com.mv.services.ColaboradorService;
 
 @RestController
+@CrossOrigin(origins = "http://domain2.com", maxAge = 3600)
 @RequestMapping(value = "/colaborador")
 public class ColaboradorController {
 
